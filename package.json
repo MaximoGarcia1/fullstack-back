@@ -5,11 +5,12 @@
   "author": "Maximo Garcia <maximogarcia006@gmail.com>",
   "license": "MIT",
   "private": false,
-  "scripts":{
-    "dev":"nodemon index.js",
-    "start":"node index.js"
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "devDependencies": {
+    "dotenv": "^16.0.3",
     "nodemon": "^2.0.22"
   }
 }
