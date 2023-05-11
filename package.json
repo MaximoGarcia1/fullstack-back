@@ -1,0 +1,11 @@
+{
+  "name": "curso-fullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maximo Garcia <maximogarcia006@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
