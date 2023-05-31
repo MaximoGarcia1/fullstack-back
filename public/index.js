@@ -1,5 +1,3 @@
-console.log("El JS esta siendo recibido por el navegador");
-
 const createBtn = document.querySelector("#create-task");
 const input = document.querySelector("#task-name");
 const tasksContainer = document.querySelector("#tasks-container")
@@ -8,7 +6,6 @@ let TASK_TO_EDIT = null
 
 
 createBtn.addEventListener("click", function () {
-  console.log("Crear tarea");
   const creating = !TASK_TO_EDIT
   const path = creating ? "tasks" : `tasks/${TASK_TO_EDIT._id}`
   const method = creating ? "POST" :"PUT"
